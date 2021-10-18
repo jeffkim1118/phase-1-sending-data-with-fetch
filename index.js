@@ -43,7 +43,7 @@ function submitData(){
     .then((data)=> console.log(data))
     .catch(function(error) {
         let p = document.createElement('p')
-        body.append(error.message,p)
+        body.append(error.message, p)
     })
 }
 
