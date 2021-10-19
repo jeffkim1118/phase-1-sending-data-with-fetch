@@ -24,6 +24,11 @@
       "dogName": "rat",
       "dogBreed": "rat@steve.com",
       "id": 5
+    },
+    {
+      "dogName": "steve",
+      "dogBreed": "steve@steve.com",
+      "id": 6
     }
   ],
   "cats": [
@@ -38,7 +43,58 @@
       "id": 2
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "name": "Steve",
+      "email": "steve@steve.com",
+      "id": 1
+    },
+    {
+      "userName": "asdf",
+      "email": "adfd@gmail.com",
+      "id": 2
+    },
+    {
+      "userName": "asdf",
+      "email": "adfd@gmail.com",
+      "id": 3
+    },
+    {
+      "userName": "asdf",
+      "email": "adfd@gmail.com",
+      "id": 4
+    },
+    {
+      "userName": "asdf",
+      "email": "adfd@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Steve",
+      "email": "steve@steve.com",
+      "id": 6
+    },
+    {
+      "userName": "gghhjh",
+      "email": "adfd@gmail.com",
+      "id": 7
+    },
+    {
+      "userName": "gghhjh",
+      "email": "adfd@gmail.com",
+      "id": 8
+    },
+    {
+      "userName": "dsdadfads",
+      "email": "adfd@gmail.com",
+      "id": 9
+    },
+    {
+      "userName": "dsdadfads",
+      "email": "adfd@gmail.com",
+      "id": 10
+    }
+  ],
   "robots": [
     {
       "robotName": "C8-09S100K",

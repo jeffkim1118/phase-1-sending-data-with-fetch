@@ -25,25 +25,31 @@ fetch(`http://localhost:3000/dogs`, configurationObject)
     console.log(error.message);
 })
 */
-const user = {
-    name: 'Steve',
-    email: 'steve@steve.com',
-};
+// const user = {
+//     name: 'Steve',
+//     email: 'steve@steve.com',
+// };
 
-function submitData(){
-    fetch(`http://localhost:3000/users`,{
+function submitData(name, email){
+    return fetch(`http://localhost:3000/users`,{
         method: "POST",
         headers: {
             "Content-Type" : "application/json",
-            Accept: "application/json",
+            "Accept" : "application/json",
         },
-        body: JSON.stringify(user),
+        body: JSON.stringify({
+                 name: name,
+                 email: email,
+            }),
     })
-    .then((res)=>res.json)
-    .then((data)=> console.log(data))
+    .then((res)=>res.json())
+
+    .then(function(data) {
+        document.body.innerHTML = data.id;
+     })
+
     .catch(function(error) {
-        let p = document.createElement('p')
-        body.append(error.message, p)
+       document.body.innerHTML = error.message;
     })
 }
 
